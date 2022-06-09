@@ -1,4 +1,4 @@
-# Proyecto Open Spaces
+# Proyecto Bubble
 
 ¡Hola! 🙋🏻‍♀️
 
