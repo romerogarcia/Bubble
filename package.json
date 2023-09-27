@@ -1,8 +1,9 @@
 {
-	"name": "adalab-web-starter-kit",
+	"name": "landing-nateevo",
 	"version": "3.0.1",
-	"description": "Adalab web starter kit",
+	"description": "Landing page for Nateevo",
 	"dependencies": {
+		"bootstrap": "^5.3.2",
 		"browser-sync": "^2.26.12",
 		"del": "^5.1.0",
 		"eslint": "^7.1.0",
@@ -19,7 +20,9 @@
 		"gulp-sourcemaps": "*",
 		"gulp-uglify-es": "^2.0.0",
 		"gulp-zip": "*",
+		"jquery": "^3.6.1",
 		"node-sass": "^6.0.1",
+		"popper.js": "^1.16.1",
 		"run-sequence": "*",
 		"sass": "^1.35.2"
 	},
@@ -34,9 +37,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com:Adalab/adalab-web-starter-kit.git"
-	},
-	"author": "Adalab",
-	"license": "MIT",
-	"homepage": "https://github.com/adalab/adalab-web-starter-kit"
+		"url": "https://bitbucket.org/vassdigital/repositorio-maquetacion.git"
+	}
+
 }
