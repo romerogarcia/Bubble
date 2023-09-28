@@ -37,7 +37,11 @@
 	},
 	"repository": {
 		"type": "git",
+<<<<<<< HEAD
 		"url": ""
+=======
+		"url": "https://bitbucket.org/vassdigital/repositorio-maquetacion.git"
+>>>>>>> 1a0d3e0aa12541c947159c69dbdb1480e7e4f645
 	}
 
 }
