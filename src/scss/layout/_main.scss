@@ -1,0 +1,177 @@
+.main {
+  align-items: center;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__notice {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px 0;
+    width: 100%;
+  }
+  &__title-span {
+    color: $color-gray;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+  }
+  &__subtitle {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+  }
+  &__text {
+    color: $color-black;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    max-width: 805px;
+  }
+  &__cards {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  &__card-img {
+    background-image: url('../images/img-noticia-destacada.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 507px;
+    max-width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 15px;
+    padding: 40px;
+  }
+  &__card-img__title {
+    color: $color-white;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  &__card-img__text {
+    color: $color-white;
+    font-size: 14px;
+    text-align: justify;
+  }
+  &__card-info {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    height: 100%;
+  }
+  
+  &__card-info__container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: $color-gray-light;
+    padding: 34px;
+    min-height: 280px;
+    max-height: 280px;
+    overflow-y: auto;
+  }
+  &__card-info__date {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  &__card-info__text {
+    font-size: 14px;
+    color: $color-gray;
+    font-weight: bold;
+    margin: 0;
+  }
+  &__card-info__title {
+    color: $color-black;
+    font-size: 22px;
+  }
+  &__card-info__info {
+    color: $color-gray-dark;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0;
+  }
+  &__card-info__btn {
+    background-color: $color-blue;
+    border: none;
+    border-radius: 50px;
+    color:$color-black;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 40px;
+    width: 130px;
+    transition: transform 0.3s ease-in-out;
+   
+  }
+  
+  &__card-info__btn.active {
+    transform: translateY(30px);
+    height: 40px;
+  }
+  &__card-info__btn.active {
+    transform: translateY(30px); 
+  }
+  &__card-info__btn.active + .main__card-info__info {
+    margin-top: 15px;
+  }
+  &__card-info__container.active {
+    padding-bottom: 15px;
+  }
+
+  @media (min-width: 768px) {
+    &__cards {
+      flex-direction: row;
+    }
+    &__card-info {
+      max-width: 470px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .main__cards {
+      flex-direction: row;
+    }
+  }
+  
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
